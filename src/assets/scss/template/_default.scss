@@ -1,0 +1,14 @@
+// Header
+.header {
+  background-color: #fff;
+
+  & .view-in-browser {
+    color: #202124;
+    text-decoration: underline;
+  }
+}
+
+.container {
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+}
