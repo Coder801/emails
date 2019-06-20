@@ -8,23 +8,20 @@
     },
     "url": "https://s3.amazonaws.com/elasticbeanstalk-us-east-1-THIS_IS_JUST_AN_EXAMPLE"
   },
-  "litmus": {
-    "username": "YOUR_LITMUS@EMAIL.com",
-    "password": "YOUR_ACCOUNT_PASSWORD",
-    "url": "https://YOUR_ACCOUNT.litmus.com",
-    "applications": ["ol2003","ol2007","ol2010","ol2011","ol2013","chromegmailnew","chromeyahoo","appmail9","iphone5s","ipad","android4","androidgmailapp"]
-  },
   "mail": {
     "to": [
-      "example@domain.com"
+      "test@domain.com"
+      "firebreath@zeoalliance.com","firebreath1@yahoo.com", "ifiretestzeo1@outlook.com"
+      "igocooper@zeoalliance.com","igocooper@outlook.com", "igocooper@yahoo.com"
+
     ],
     "from": "Company name <info@company.com",
     "smtp": {
       "auth": {
-        "user": "example@domain.com",
-        "pass": "12345678"
+        "user": "test@domain.com",
+        "pass": "12345"
       },
-      "host": "smtp.domain.com",
+      "host": "smtp.gmail.com",
       "secureConnection": true,
       "port": 465
     }

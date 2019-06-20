@@ -1,0 +1,23 @@
+// Content
+// =================================
+
+table {
+  &.content {
+
+    & h1 {
+      line-height: 1.2 !important;
+      hyphens: none !important;
+      @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 24px !important;
+        line-height: 1.1 !important;
+      }
+    }
+
+    & p {
+      hyphens: none !important;
+      @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 18px !important;
+      }
+    }
+  }
+}

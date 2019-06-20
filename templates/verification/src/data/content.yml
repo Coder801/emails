@@ -1,0 +1,51 @@
+# Snippet
+snippet:
+  en: "Update your billing information"
+open_in_browser:
+  en: "Open in browser"
+
+# Header
+logo:
+  en: "MacKeeper"
+slogan:
+  en: "powered by Kromtech"
+
+# Button
+button:
+  en: "Update Now"
+
+# Footer
+email_was_sent:
+  en: "This email was sent to %%FirstName%%."
+address:
+  en: "%%Member_Busname%%, %%Member_Addr%%, %%Member_PostalCode%% %%Member_City%%, %%Member_State%%"
+unsubscribe:
+  en: "Unsubscribe"
+privacy_policy:
+  en: "Privacy Policy"
+preferences:
+  en: "Preferences"
+
+# Content
+paragraph_1:
+  en: "Hi %%FirstName%%!"
+paragraph_2:
+  en: "Oops, we were unable to extend your MacKeeper subscription."
+paragraph_3:
+  en: |
+    Please #[a(href="%%=RedirectTo(@myLicensesurl)=%%") update your billing information now] to keep your Mac covered.
+paragraph_4:
+  en: "Without Auto-Protection, your computer may be vulnerable to thousands of viruses targeting Macs."
+paragraph_5:
+  en: "Make sure your Mac is free from unsafe downloads, tracking software, and identity theft. Update your billing information now to automatically prevent malicious attacks from harming your Mac."
+
+# Features
+feature_text_1:
+  en: |
+    Downloaded over#[br]37 million times
+feature_text_2:
+  en: |
+    Used in 190+#[br]countries
+feature_text_3:
+  en: |
+    24/7 Apple Certified#[br]Support

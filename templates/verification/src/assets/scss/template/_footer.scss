@@ -1,0 +1,20 @@
+// Footer
+// =================================
+
+table {
+  &.footer {
+    background-color: $footer-background;
+
+    & p {
+      font-size: 14px;
+      color: $medium-gray;
+
+      & > a {
+        color: $medium-gray !important;
+      }
+      @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 12px !important;
+      }
+    }
+  }
+}

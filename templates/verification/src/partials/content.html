@@ -1,0 +1,36 @@
+<container class="content">
+  <row>
+    <columns small="12">
+      <spacer size="30" />
+      <spacer size="10" class="show-for-large" />
+      <p>{{ lookup content.paragraph_1 lang }}</p>
+      <spacer size="10" />
+      <h1>{{ lookup content.paragraph_2 lang }}</h1>
+      <spacer size="10" />
+      <p>{{ lookup content.paragraph_3 lang }}</p>
+      <spacer size="30" />
+      <spacer size="10" class="show-for-large" />
+      {{#custom-button link='%%=RedirectTo(@myLicensesurl)=%%'}}
+        {{ lookup content.button lang }}
+      {{/custom-button}}
+      <spacer size="30" />
+      <spacer size="10" class="show-for-large" />
+      <center>
+        <img src="./img/mail_3.png" alt="">
+      </center>
+      <spacer size="20" />
+      <spacer size="10" class="show-for-large" />
+      <p>{{ lookup content.paragraph_4 lang }}</p>
+      <spacer size="20" />
+      <spacer size="20" class="show-for-large" />
+      <p>{{ lookup content.paragraph_5 lang }}</p>
+      <spacer size="20" />
+      <spacer size="20" class="show-for-large" />
+      {{#custom-button link='%%=RedirectTo(@myLicensesurl)=%%'}}
+        {{ lookup content.button lang }}
+      {{/custom-button}}
+      <spacer size="30" />
+      <spacer size="20" class="show-for-large" />
+    </columns>
+  </row>
+</container>

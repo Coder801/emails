@@ -1,0 +1,18 @@
+// Features
+// =================================
+
+table {
+  &.features {
+    background: #f4f6f9;
+
+    & p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 15px !important;
+        line-height: 1.4 !important;
+      }
+    }
+  }
+}

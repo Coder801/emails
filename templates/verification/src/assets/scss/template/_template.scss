@@ -1,0 +1,57 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Grid with side padding
+// =================================
+@if $global-gutter != $global-side-gutter {
+  @for $i from 1 through $grid-column-count {
+    td.large-#{$i},
+    th.large-#{$i} {
+      padding-right: $global-gutter / 2;
+      padding-left: $global-gutter / 2;
+      width: -zf-grid-calc-px($i, $grid-column-count, $global-width) - ($global-side-gutter - $global-gutter);
+    }
+
+    td.large-#{$i}.first,
+    th.large-#{$i}.first {
+      padding-left: $global-side-gutter;
+    }
+
+    td.large-#{$i}.last,
+    th.large-#{$i}.last {
+      padding-right: $global-side-gutter;
+    }
+
+    td.large-#{$i} center,
+    th.large-#{$i} center {
+      min-width: -zf-grid-calc-px($i, $grid-column-count, $global-width) - ($global-side-gutter + $global-gutter) * 2;
+    }
+
+    td.large-#{$i} .callout center,
+    th.large-#{$i} .callout center {
+      min-width: -zf-grid-calc-px($i, $grid-column-count, $global-width) - ($global-side-gutter + $callout-padding) * 2;
+    }
+  }
+}
+
+// Helpers
+// =================================
+
+// Transparen background color
+.transparent {
+  background-color: transparent !important;
+}
+
+// Class for top and bottom rounded element
+.line {
+  @extend .transparent;
+
+  & .columns {
+    padding-bottom: 0 !important;
+  }
+}
+
+// Make image inline
+img.inline {
+  display: inline-block;
+}

@@ -1,0 +1,29 @@
+---
+subject: My Basic Email Template Subject
+---
+
+<spacer size="16"></spacer>
+<container>
+  <row>
+    <columns>
+      <spacer size="40"></spacer>
+      <h4>Hi, Developer!</h4>
+      <p style="font-size: 20px;">Please read this short instruction before starting work</p>
+    </columns>
+  </row>
+  <row>
+    <columns small="12" large="12">
+      <spacer size="25"></spacer>
+      <center>
+        {{#index-list}}{{/index-list}}
+      </center>
+      <spacer size="15"></spacer>
+    </columns>
+  </row>
+  <row>
+    <columns>
+      <p style="font-size: 20px;">All other information can be found on the website <br><a href="https://foundation.zurb.com/emails/docs/index.html" target="_blank">Zurb foundation</a></p>
+      <spacer size="16"></spacer>
+    </columns>
+  </row>
+</container>
