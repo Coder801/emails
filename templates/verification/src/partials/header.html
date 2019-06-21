@@ -1,22 +1,21 @@
-<container class="line">
-    <row class="collapse">
-        <columns valign="bottom">
-            <img src="./img/top.png" alt="" style="display:block;width:100%">
-        </columns>
-    </row>
-</container>
+
 <container class="header">
-    <row>
-        <columns small="12" valign="middle">
-            <spacer size="20"></spacer>
-            <a href="https://mackeeper.com/">
-              <img class="img float-left" src="./img/logo.png" alt="">
-            </a>
-            <p class="logo">
-              <a href="https://mackeeper.com/">{{ lookup content.logo lang }}<br> <span class="slogan">{{ lookup content.slogan lang }}</a></span>
-            </p>
-            <spacer size="20"></spacer>
-            <p class="border"></p>
-        </columns>
-    </row>
+  <row>
+    <columns small="6" valign="middle">
+      <spacer size="20" />
+      <a href="#">
+        <img class="img float-left" src="./img/logo.png" alt="">
+      </a>
+      <spacer size="20" />
+    </columns>
+    <columns small="6" valign="middle">
+      <spacer size="30" />
+      <p class="text-right">
+        <a href="#" class="view-in-browser">
+          {{ lookup content.view_in_browser lang }}
+        </a>
+      </p>
+      <spacer size="20" />
+    </columns>
+  </row>
 </container>
